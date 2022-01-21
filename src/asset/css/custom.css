@@ -1,0 +1,71 @@
+.topFixedBanner{
+    background-color: blue;
+    min-height: 500px;
+    background-image: url("../image/banner.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.topContain{
+    margin-top:10rem;
+}
+.topTitle{
+    font-family:'Montserrat', sans-serif;
+    color:#fff;
+    font-weight: 600;
+    font-size:48px;
+}
+.topSubTitle{
+    font-family:'Raleway', sans-serif;
+    color:#fff;
+    font-weight: 600;
+    font-size:24px
+}
+.check{
+    border:1px solid red;
+}
+.iconSize{
+    width:60px;
+    height: 70px;
+    margin:auto
+}
+.navTitle{
+    color: blue !important;
+    font-weight: bold;
+}
+.navScrol{
+    color:red;
+    
+}
+/*
+.topBannerOverlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.topContent{
+    margin-top: 10rem;
+}
+.topTitle{
+      font-family: 'Montserreat',sans-serif;
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 48px;
+  }
+
+.topSubTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 22px;
+}
+*/
