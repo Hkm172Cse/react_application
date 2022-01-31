@@ -2,6 +2,7 @@ import React from 'react';
 import TopBanner from "./components/TopBanner/TopBanner";
 import Services from './components/Services/Services';
 import TopNavigation from './components/TopNavigation/TopNavigation';
+import Chart from './components/Chart/Chart';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <TopNavigation/>
       <TopBanner/>
       <Services/>
+      <Chart/>
       
 
 

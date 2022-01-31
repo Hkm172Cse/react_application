@@ -1,7 +1,6 @@
 import React, {Component,Fragment} from 'react';
 import { Col, Container, Row,Card,Button } from 'react-bootstrap';
-import '../../asset/css/bootstrap.min.css';
-import '../../asset/css/custom.css';
+
 
 import imageOne from '../../asset/image/phn.svg';
 import imagetwo from '../../asset/image/phn2.svg';

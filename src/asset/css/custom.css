@@ -45,6 +45,26 @@
     color:red;
     
 }
+.navBrackground{
+    background-color:rgba(0,0,0,0.1);
+    transition: background-color 400ms linear;
+}
+.navBackScroll{
+    background: #ffffff;
+    transition: background-color 400ms linear;
+    
+}
+.navTitle{
+    text-decoration: none!important;
+    color:#ffffff !important;
+}
+.navTitleScroll{
+    text-decoration:none !important;
+    color: #000 !important;;
+}
+.chartTitle{
+    color:aqua;
+}
 /*
 .topBannerOverlay{
     position: absolute;
