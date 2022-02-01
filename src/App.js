@@ -3,6 +3,7 @@ import TopBanner from "./components/TopBanner/TopBanner";
 import Services from './components/Services/Services';
 import TopNavigation from './components/TopNavigation/TopNavigation';
 import Chart from './components/Chart/Chart';
+import Summary from './components/Summary/Summary';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <TopBanner/>
       <Services/>
       <Chart/>
+      <Summary/>
       
 
 
