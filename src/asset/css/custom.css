@@ -86,6 +86,10 @@
 .sumarryCard{
     margin-top:4rem;
 }
+.summaryLastCard{
+    text-align: left;
+    
+}
 /*
 .topBannerOverlay{
     position: absolute;
