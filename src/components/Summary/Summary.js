@@ -11,15 +11,15 @@ class Summary extends Component{
     render(){
         return (
             <Fragment>
-            <Container fluid={true} className="summaryBanner mt-5 p-0">
+            <Container fluid={true}  className="summaryBanner  mt-5 p-0">
                 <div className='summaryOverlay'>
                     <Container className="text-center">
                          <Row>
                              <Col lg={8} className="countNum">
                                  <Row>
-                                 <Col md={6} sm={12} className="text-center">
+                                 <Col md={6} sm={12} className="text-center countingDiv">
                                     <h1 className="text-white">
-                                    <CountUp start={0} end={100}>
+                                    <CountUp start={0} end={1000}>
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start} delayeCall>
                                                 <span ref={countUpRef} />
@@ -31,9 +31,9 @@ class Summary extends Component{
                                     <h4 className="text-white">Total Project</h4>
                                     <hr className="bg-white w-25" />
                                 </Col>
-                                <Col md={6} sm={12} className="text-center">
+                                <Col md={6} sm={12} className="text-center countingDiv">
                                 <h1 className="text-white">
-                                    <CountUp start={0} end={100}>
+                                    <CountUp start={0} end={1000}>
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start} delayeCall>
                                                 <span ref={countUpRef} />
@@ -49,8 +49,9 @@ class Summary extends Component{
                                 
                              </Col>
                              
-                             <Col lg={4} md={12} sm={12} className="sumarryCard text-center">
-                                <Card style={{ width: '18rem' }}>
+                             
+                             {/* <Col lg={4} md={12} sm={12} className="sumarryCard">
+                                <Card className='workCard'>
                                 <Card.Title>How I Work</Card.Title>
                                     
                                     <Card.Body className="summaryLastCard">
@@ -60,7 +61,7 @@ class Summary extends Component{
                                         <p><FontAwesomeIcon icon={faCheckCircle} /> Web Development</p>
                                     </Card.Body>
                                 </Card>
-                             </Col>
+                             </Col> */}
                          </Row>
                     </Container>
                 </div>

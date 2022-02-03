@@ -4,6 +4,9 @@ import Services from './components/Services/Services';
 import TopNavigation from './components/TopNavigation/TopNavigation';
 import Chart from './components/Chart/Chart';
 import Summary from './components/Summary/Summary';
+import Project from './components/Project/Project';
+import Video from './components/Video/Video';
+import Cources from './components/Cources/Cources';
 
 
 function App() {
@@ -14,6 +17,9 @@ function App() {
       <Services/>
       <Chart/>
       <Summary/>
+      <Project/>
+      <Video/>
+      <Cources/>
       
 
 

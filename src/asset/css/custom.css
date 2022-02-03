@@ -66,17 +66,24 @@
 }
 
 .summaryBanner{
-    background-color: blue;
-    background-image: url("../image/banner.jpg");
-    min-height: 300px;
+    
+    min-height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("../image/banner.jpg");
+}
+.ProjectHead{
+    margin-top:50px;
+    font-size:30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
 }
 .summaryOverlay{
     position: absolute;
-    min-height: 300px;
+    min-height: 400px;
     width: 100%;
     background: rgba(0,0,0,0.6);  
 }
@@ -84,33 +91,65 @@
     margin-top:7rem;
 }
 .sumarryCard{
-    margin-top:4rem;
+    margin-top:6rem;
+    text-align: center;
 }
 .summaryLastCard{
     text-align: left;
     
 }
-/*
-.topBannerOverlay{
-    position: absolute;
-    min-height: 500px;
-    width: 100%;
-    background: rgba(0,0,0,0.7);
+.workCard{
+    text-align:center;
+    width: 300px;
+    margin: auto;
 }
-.topContent{
-    margin-top: 10rem;
+.countingDiv{
+    margin-top: 50px;
 }
-.topTitle{
-      font-family: 'Montserreat',sans-serif;
-      font-weight: 700;
-      color: #ffffff;
-      font-size: 48px;
-  }
+.recentTitle{
+    text-transform: uppercase;
+}
+.projecCardImage{
+    width:100%;
+    padding:0px;
+   border-radius: 3px;
+}
+.CartText{
+    text-align: justify;
+}
+.videoSection{
+    margin-top: 50px;
+}
+.videoCard{
+    width:100%;
+}
+.playBtn{
+    border-radius: 50% !important;
+    background: red !important;
+  
+}
+.courseTitle{
+    font-family:'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom:50px;
 
-.topSubTitle{
-    font-family: 'Raleway',sans-serif;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 22px;
 }
-*/
+.courseCardImg{
+    width:100px;
+    height: 100px;
+    background:red;
+
+}
+.coursePara{
+    font-size:14px;
+    font-family:'Montserrat', sans-serif;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.couseHeading{
+    font-size:20px;
+    font-family: 'Montserrat',sans-serif;
+    
+}
