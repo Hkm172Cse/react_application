@@ -122,11 +122,15 @@
 }
 .videoCard{
     width:100%;
+    box-shadow: 1px 2px 1px 2px rgba(0,0,0,0.1);
+    background: rgb(65, 105, 225,0.1);
 }
-.playBtn{
-    border-radius: 50% !important;
-    background: red !important;
-  
+
+
+.VideoText{
+    margin-top: 80px;
+    font-family: 'Montserrat',sans-serif;
+    
 }
 .courseTitle{
     font-family:'Montserrat', sans-serif;

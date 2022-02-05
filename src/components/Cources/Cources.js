@@ -10,15 +10,15 @@ class Cources extends Component{
                 <h1  className="text-info text-center mt-5 courseTitle">Our Courses</h1>
                 <Container>
                     <Row>
-                        <Col lg={12} md={12}>
-                            <Row>
-                                <Col sm={12}>
+                        <Col lg={6} md={12}>
+                            <Row className="mt-5">
+                                <Col lg={6} md={6} sm={12}>
                                     <Card >
                                         <Card.Img ClassName="courseCardImg" src={courseImg} />
                                             
                                     </Card>
                                 </Col>
-                                <Col sm={12}>
+                                <Col lg={6} md={6} sm={12}>
                                 <h3 className="couseHeading text-info">Web Development</h3>
                                     <p className="coursePara">Web development team thing together how to solve project problem and how to dibaging programming garbeg
                                     
@@ -28,14 +28,14 @@ class Cources extends Component{
                             </Row>
                         </Col>
                         <Col>
-                        <Row>
-                                <Col>
+                        <Row className="mt-5">
+                                <Col lg={6} md={6} sm={12}>
                                     <Card >
                                         <Card.Img ClassName="courseCardImg" src={courseImg2} />
                                             
                                     </Card>
                                 </Col>
-                                <Col>
+                                <Col lg={6} md={6} sm={12}>
                                 <h3 className="couseHeading text-info">Web Development</h3>
                                     <p className="coursePara">Web development team thing together how to solve project problem and how to dibaging programming garbeg
                                     
@@ -45,16 +45,16 @@ class Cources extends Component{
                             </Row>
                         </Col>
                     </Row>
-                    <Row className="mt-5">
-                        <Col>
-                            <Row>
-                                <Col>
+                    <Row>
+                        <Col lg={6} md={12}>
+                            <Row className="mt-5">
+                                <Col lg={6} md={6} sm={12}>
                                     <Card >
                                         <Card.Img ClassName="courseCardImg" src={courseImg} />
                                             
                                     </Card>
                                 </Col>
-                                <Col>
+                                <Col lg={6} md={6} sm={12}>
                                 <h3 className="couseHeading text-info">Web Development</h3>
                                     <p className="coursePara">Web development team thing together how to solve project problem and how to dibaging programming garbeg
                                     
@@ -64,14 +64,14 @@ class Cources extends Component{
                             </Row>
                         </Col>
                         <Col>
-                        <Row>
-                                <Col>
+                        <Row className="mt-5">
+                                <Col lg={6} md={6} sm={12}>
                                     <Card >
                                         <Card.Img ClassName="courseCardImg" src={courseImg2} />
                                             
                                     </Card>
                                 </Col>
-                                <Col>
+                                <Col lg={6} md={6} sm={12}>
                                 <h3 className="couseHeading text-info">Web Development</h3>
                                     <p className="coursePara">Web development team thing together how to solve project problem and how to dibaging programming garbeg
                                     
