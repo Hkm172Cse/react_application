@@ -32,11 +32,8 @@ class TopNavigation extends Component{
                    
                     <Navbar.Brand className={this.state.navVarTitle,this.state.navTitle}><img src={this.state.navLogo} /> Azizul Hakim</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
+                    <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                         
-                       
-                        </Nav>
                         <Nav>
                         <Nav.Link className={this.state.navTitle} href="#deets">Home</Nav.Link>
                         <Nav.Link className={this.state.navTitle} href="#deets">About</Nav.Link>
