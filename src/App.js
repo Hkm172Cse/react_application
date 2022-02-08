@@ -8,6 +8,7 @@ import Project from './components/Project/Project';
 import Video from './components/Video/Video';
 import Cources from './components/Cources/Cources';
 import ClientReview from './components/ClientReview/ClientReview';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Video/>
       <Cources/>
       <ClientReview/>
+      <Footer/>
       
 
 
