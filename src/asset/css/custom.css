@@ -1,200 +1,211 @@
-.topFixedBanner{
-    background-color: blue;
-    background-image: url("../image/banner.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.topFixedBanner {
+  background-color: blue;
+  background-image: url("../image/banner.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.overlay{
-    position: absolute;
-    min-height: 500px;
-    width: 100%;
-    background: rgba(0,0,0,0.6);
+.overlay {
+  position: absolute;
+  min-height: 500px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
 }
-.topContain{
-    margin-top:10rem;
+.topContain {
+  margin-top: 10rem;
 }
-.topTitle{
-    font-family:'Montserrat', sans-serif;
-    color:#fff;
-    font-weight: 600;
-    font-size:48px;
+.topTitle {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 48px;
 }
-.topSubTitle{
-    font-family:'Raleway', sans-serif;
-    color:#fff;
-    font-weight: 600;
-    font-size:24px
+.topSubTitle {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
 }
-.check{
-    border:1px solid red;
+.check {
+  border: 1px solid red;
 }
-.iconSize{
-    width:60px;
-    height: 70px;
-    margin:auto
+.iconSize {
+  width: 60px;
+  height: 70px;
+  margin: auto;
 }
-.navTitle{
-    color: blue !important;
-    font-weight: bold;
+.navTitle {
+  color: white;
+  font-weight: bold;
 }
-.navScrol{
-    color:red;
-    
+.navScrol {
+  color: red;
 }
-.navBrackground{
-    background-color:rgba(0,0,0,0.1);
-    transition: background-color 400ms linear;
+.navBrackground {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: background-color 400ms linear;
 }
-.navBackScroll{
-    background: #ffffff;
-    transition: background-color 400ms linear;
-    
+.navBackScroll {
+  background: #ffffff;
+  transition: background-color 400ms linear;
 }
-.navTitle{
-    text-decoration: none!important;
-    color:#ffffff !important;
+.navTitle {
+  text-decoration: none !important;
+  color: #ffffff !important;
 }
-.navTitleScroll{
-    text-decoration:none !important;
-    color: #000 !important;;
+.navTitleScroll {
+  text-decoration: none !important;
+  color: #000 !important;
 }
-.chartTitle{
-    color:aqua;
+.chartTitle {
+  color: aqua;
 }
 
-.summaryBanner{
-    
-    min-height: 400px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../image/banner.jpg");
+.summaryBanner {
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../image/banner.jpg");
 }
-.ProjectHead{
-    margin-top:50px;
-    font-size:30px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
+.ProjectHead {
+  margin-top: 50px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
 }
-.summaryOverlay{
-    position: absolute;
-    min-height: 400px;
-    width: 100%;
-    background: rgba(0,0,0,0.6);  
+.summaryOverlay {
+  position: absolute;
+  min-height: 400px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
 }
-.countNum{
-    margin-top:7rem;
+.countNum {
+  margin-top: 7rem;
 }
-.sumarryCard{
-    margin-top:6rem;
-    text-align: center;
+.sumarryCard {
+  margin-top: 6rem;
+  text-align: center;
 }
-.summaryLastCard{
-    text-align: left;
-    
+.summaryLastCard {
+  text-align: left;
 }
-.workCard{
-    text-align:center;
-    width: 300px;
-    margin: auto;
+.workCard {
+  text-align: center;
+  width: 300px;
+  margin: auto;
 }
-.countingDiv{
-    margin-top: 50px;
+.countingDiv {
+  margin-top: 50px;
 }
-.recentTitle{
-    text-transform: uppercase;
+.recentTitle {
+  text-transform: uppercase;
 }
-.projecCardImage{
-    width:100%;
-    padding:0px;
-   border-radius: 3px;
+.projecCardImage {
+  width: 100%;
+  padding: 0px;
+  border-radius: 3px;
 }
-.CartText{
-    text-align: justify;
+.CartText {
+  text-align: justify;
 }
-.videoSection{
-    margin-top: 50px;
+.videoSection {
+  margin-top: 50px;
 }
-.videoCard{
-    width:100%;
-    box-shadow: 1px 2px 1px 2px rgba(0,0,0,0.1);
-    background: rgb(65, 105, 225,0.1);
+.videoCard {
+  width: 100%;
+  box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.1);
+  background: rgb(65, 105, 225, 0.1);
 }
 
+.VideoText {
+  margin-top: 80px;
+  font-family: "Montserrat", sans-serif;
+}
+.courseTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.courseCardImg {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.coursePara {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  text-align: justify;
+}
+.couseHeading {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.myProfile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid rgba(151, 80, 80, 0.431);
+}
+.caruoseldiv {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.198);
+}
+.caruoselImgDiv {
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin: auto;
+}
+.meTitle {
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+.profileTitle {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.profileCol {
+  width: 700px;
+  margin: auto;
+}
+.footerTitle {
+  margin-top: 100px;
+}
 
-.VideoText{
-    margin-top: 80px;
-    font-family: 'Montserrat',sans-serif;
-    
-}
-.courseTitle{
-    font-family:'Montserrat', sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom:50px;
+/*About Description Page CSS */
 
+.hr {
+  width: 100%;
+  height: 1px;
+  background: rgb(85, 85, 85, 0.1);
 }
-.courseCardImg{
-    width:100px;
-    height: 100px;
-    background:red;
-
+.desTitle {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #666;
+  margin-left: 0;
+  margin-right: 0;
 }
-.coursePara{
-    font-size:14px;
-    font-family:'Montserrat', sans-serif;
-    text-transform: capitalize;
-    text-align: justify;
+.description {
+  margin-bottom: 50px;
 }
-.couseHeading{
-    font-size:20px;
-    font-family: 'Montserrat',sans-serif;
-    
-}
-.myProfile{
-    width:100px;
-    height:100px;
-    border-radius:50%;
-    border:2px solid rgba(151, 80, 80, 0.431);
-
-}
-.caruoseldiv{
-    width:80%;
-    margin:auto;
-    text-align: center;
-    background:rgba(0, 0, 0, 0.198)
-}
-.caruoselImgDiv{
-    text-align: center;
-    width:120px;
-    height: 120px;
-    margin: 0 auto;
-    margin:auto;
-}
-.meTitle{
-    text-align: center;
-    font-size:40px;
-    text-transform: capitalize;
-    margin-top:90px;
-    margin-bottom: 40px;
-
-}
-.profileTitle{
-    margin-top: 15px;
-    margin-bottom: 30px;
-    font-size: 25px;
-    text-transform: uppercase;
-}
-.profileCol{
-    width: 700px;
-    margin:auto;
-}
-.footerTitle{
-   margin-top:100px
+.footerHead {
+  margin: auto;
+  text-align: center;
 }

@@ -1,7 +1,7 @@
-import React, {Component,Fragment} from 'react'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faFacebook,faYoutube} from '@fortawesome/free-brands-svg-icons';
-import {Container,Row,Col} from 'react-bootstrap';
+import { faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { Component, Fragment } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 
 class Footer extends Component{
     render(){
@@ -13,21 +13,39 @@ class Footer extends Component{
                         <h2 className="text-dark footerTitle">Follow Me</h2>
                         <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faFacebook} />Facebook</p>
                         <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faYoutube}/>youtube</p>
+
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faFacebook} />Facebook</p>
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faYoutube}/>youtube</p>
                         </Col>
                         <Col>
-                        <h2 className="footerTitle">Follow Me</h2>
+                        <h2 className="text-dark footerTitle">Follow Me</h2>
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faFacebook} />Facebook</p>
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faYoutube}/>youtube</p>
+
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faFacebook} />Facebook</p>
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faYoutube}/>youtube</p>
                         </Col>
                         <Col>
-                        <h2 className="footerTitle">Follow Me</h2>
+                        <h2 className="text-dark footerTitle">Follow Me</h2>
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faFacebook} />Facebook</p>
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faYoutube}/>youtube</p>
+
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faFacebook} />Facebook</p>
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faYoutube}/>youtube</p>
                         </Col>
                         <Col>
-                        <h2 className="footerTitle">Follow Me</h2>
+                        <h2 className="text-dark footerTitle">Follow Me</h2>
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faFacebook} />Facebook</p>
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faYoutube}/>youtube</p>
+
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faFacebook} />Facebook</p>
+                        <p className="text-dark m-0"> <FontAwesomeIcon className="mr-3" icon={faYoutube}/>youtube</p>
                         </Col>
                     </Row>
                    
                 </Container>
-                <Row className="container-fluid bg-info">
-                        <h4>Copy Right Azizul Hakim</h4>
+                <Row className="container-fluid bg-info mt-5">
+                        <h3 className="footerHead">Copy Right Azizul Hakim</h3>
                 </Row>
 
             </Fragment>

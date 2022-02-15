@@ -4,14 +4,16 @@ import whiteLogo from '../../asset/image/navLogo.svg';
 import starLogo from '../../asset/image/logoicon.png';
 import '../../asset/css/bootstrap.min.css';
 import '../../asset/css/custom.css';
+import {NavLink} from 'react-router-dom';
 class TopNavigation extends Component{
-    constructor(){
+    constructor(props){
        super();
         this.state={
             navVarTitle:"navTitle",
             navLogo:[whiteLogo],
             navBack:"navBrackground",
-            navTitle:"navTitle"
+            navTitle:"navTitle",
+            pageTilte:props.Title
         }
         
     }
@@ -28,6 +30,7 @@ class TopNavigation extends Component{
     render(){
         return (
             <Fragment>
+                <title>{this.state.pageTilte}</title>
                 <Navbar fixed="top" className={this.state.navBack} collapseOnSelect expand="lg" variant="dark">
                    
                     <Navbar.Brand className={this.state.navVarTitle,this.state.navTitle}><img src={this.state.navLogo} /> Azizul Hakim</Navbar.Brand>
@@ -35,12 +38,12 @@ class TopNavigation extends Component{
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                         
                         <Nav>
-                        <Nav.Link className={this.state.navTitle} href="#deets">Home</Nav.Link>
-                        <Nav.Link className={this.state.navTitle} href="#deets">About</Nav.Link>
-                        <Nav.Link className={this.state.navTitle} href="#deets">Courses</Nav.Link>
-                        <Nav.Link className={this.state.navTitle} href="#deets">Portfolio</Nav.Link>
-                        <Nav.Link className={this.state.navTitle} href="#deets">Contact</Nav.Link>
-                        <Nav.Link className={this.state.navTitle}k  href="#deets">Services</Nav.Link>
+                       <Nav.Link><NavLink exact  activeStyle={{color: 'red'}} className={this.state.navTitle} to="/">Home</NavLink></Nav.Link> 
+                       <Nav.Link><NavLink className={this.state.navTitle} to="/About">About</NavLink></Nav.Link>
+                       <Nav.Link><NavLink className={this.state.navTitle} to="#deets">Portfolio</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navTitle} to="/">Contact</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className={this.state.navTitle}k  to="#deets">Services</NavLink></Nav.Link>
+                        
 
                         
                         </Nav>
