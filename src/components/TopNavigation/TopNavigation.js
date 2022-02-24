@@ -5,6 +5,7 @@ import starLogo from '../../asset/image/logoicon.png';
 import '../../asset/css/bootstrap.min.css';
 import '../../asset/css/custom.css';
 import {NavLink} from 'react-router-dom';
+import axios from 'axios';
 class TopNavigation extends Component{
     constructor(props){
        super();
@@ -26,6 +27,15 @@ class TopNavigation extends Component{
     }
     componentDidMount(){
         window.addEventListener('scroll',this.onScroll)
+        axios.get('http://localhost:8000/selectbymodel')
+            .then(function (response) {
+                
+               console.log(response.data);
+            })
+            .catch(function (error) {
+                
+             console.log(error);
+            })
     }
     render(){
         return (

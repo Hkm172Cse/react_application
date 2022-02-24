@@ -25,7 +25,7 @@ class Chart extends  Component{
         return (
             <Fragment>
                 <Container className="text-center">
-                  <h1 className="chartTitle">Azizul Hakim</h1>
+                  <h1 className="chartTitle mb-5">My Work Flue Chart</h1>
                     <Row>
                         <Col className="text-justify" style={{width:'100%', height:'400px'}} lg={6} md={12} sm={12}>
                             <ResponsiveContainer>

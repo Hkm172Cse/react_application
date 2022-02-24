@@ -15,22 +15,22 @@ class Services extends Component{
                         <Col>
                            <Card className="pt-3 pb-3">
                                <img className='iconSize' src={imageThree}/>
-                               <h2>Azizul hakim</h2>
-                               <p>my name azizul hakim i am full stack developer</p>
+                               <h2>Web Development</h2>
+                               
                            </Card>
                         </Col>
                         <Col>
                             <Card className='pt-3 pb-3'>
                                <img className='iconSize' src={imagetwo}/>
-                               <h2>Azizul hakim</h2>
-                               <p>my name azizul hakim i am full stack developer</p>
+                               <h2>Mobile App</h2>
+                             
                            </Card>
                         </Col>
                         <Col>
                              <Card className='pt-3 pb-3'>
                                <img className='iconSize' src={imageOne}/>
-                               <h2>Azizul hakim</h2>
-                               <p>my name azizul hakim i am full stack developer</p>
+                               <h2>Flutter Developer</h2>
+                               
                            </Card>
                         </Col>
                     </Row>
